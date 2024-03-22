@@ -1,0 +1,125 @@
+/*
+Theme Name: Elll miooo
+Author: Dario Isidro Dominguez Corona
+Author URI: http://ult.edu.cu/
+Description: Plantilla desarrollada en Bootstrap
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: ULT
+*/
+
+
+/* Menus */
+
+.r {
+    font-family: "Advent Pro", sans-serif;
+}
+
+.micss {
+    color: #003d1a;
+    font-family: 'GFS Didot', serif;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background: #ffffff;
+    padding-right: 0px;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 0px;
+    padding-left: 0px;
+    font-size: 45.88px;
+}
+
+.micss2 {
+    color: #003d1a;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: 7%;
+    font-family: 'Advent Pro', sans-serif;
+    padding-right: 0px;
+    width: 90%;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+.mibbt {
+    width: 102.375px;
+    font-size: 14px;
+    margin-left: 34%;
+    border-radius: 25px;
+    border-left-color: var(--bs-border-color-translucent);
+    background: #003d1a;
+    height: 33px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+
+.menu-item-has-children .sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    min-width: 120px;
+    text-align: left;
+    background-color: #10241a;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
+    left: -8px;
+}
+
+.menu-item-has-children .sub-menu li {
+    padding: 5px 10px;
+}
+
+.menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+.menu-item-has-children>a::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #000000 transparent transparent transparent;
+    position: relative;
+    top: 13px;
+    margin-left: 9px;
+}
+
+.menu-item-has-children>a:hover::after {
+    border-color: #fff transparent transparent transparent;
+}
+
+body {
+max-width: 100%;
+overflow-x: hidden;
+}
+.top-gap, .small-gap  {
+	text-transform: uppercase;
+	text-align: left;   
+	font-family:'Thesis Sans', sans-serif;
+}
+.top-gap {
+	 color: #598D65;
+}
+
+.elementor img{
+	border-radius: 5px;
+	box-shadow: 2px 5px 10px 0px;
+}
+figcaption * .elementor-image-carousel-caption {
+	text-align: left;
+    color: #598D65;
+    font-size: 16px;
+    margin-block-start: 10px;
+}
+.small-gap {
+	color: #000;
+	font-weight: bold;
+}
+
+
+/* Content */
